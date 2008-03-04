@@ -1,0 +1,76 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 413148202a0f9c20ce08c7d32ff0611d54bdd84b AUTHORS
+SHA1 72ec3bb0a381c935a757f08ee7fcaee8f7a610d7 COPYING
+SHA1 9d8d0c60edac9f907b852a0480fa889dd6b72f4b Changes
+SHA1 3d96f626d3df6dc5efb5fc4efc0356bb3af6924e GenerateVarMap.PL
+SHA1 e12096324726cf55b8a2d747e3fa901ba3345092 MANIFEST
+SHA1 a4c353e8661bc069d324912a2c1031a3b8f7c75f META.yml
+SHA1 460486b3e9bc4e62d139e46eb1909ab3417c90f3 Makefile.PL
+SHA1 aeb7be1f6e5d8504e6a17e6dbd4a0602494cb5b0 TODO
+SHA1 1ffea2027171230a5a87f69d7122e74e519316c4 class_template.tt
+SHA1 72f0a3587b4612dbbcd87bbe29a486f5655596df devel/Generator/VarMap.pm
+SHA1 42b2380c78c9f8599a22011d117d8ce7ad36a47b devel/Generator/VarMap/Class.pm
+SHA1 61d72a5d5750be3a54519f82227ce9ca099d193b devel/Generator/VarMap/CompositeAttr.pm
+SHA1 1b3164412f9282af4e2c5ca135f17a6cf310138c devel/Generator/VarMap/Method.pm
+SHA1 2fe1b0c70f6def4320e0912ddb9957ec53d1b430 devel/Generator/VarMap/Var.pm
+SHA1 2b7a74c26fc06bb1d185fdc0070a1393ee0e07c3 devel/bench.pl
+SHA1 14bb9340d2946bf8b74a2d07c8ba01945c04c474 devel/build_wikidoc.pl
+SHA1 30a8d488c574d81f3f931eea5c7e0f01dda79842 devel/curversion
+SHA1 bc0316b51ebe88f527eec920c41fd1e65facc88e devel/grepversion.sh
+SHA1 d161ba99a55ec8bdda464b31add26e58bc375428 devel/incrementversion.sh
+SHA1 55c930a121e9b25c483360a0dc131ba334859c7b devel/testcover
+SHA1 603bb9de29fb8cba7f13409c546750972eff645d inc/Module/AutoInstall.pm
+SHA1 7e2cfa1b9efe0d502ee57717649c90ba4bd28ba9 inc/Module/Install.pm
+SHA1 182a0df45b65151afdc2be0b7246a2d02d0f0567 inc/Module/Install/AutoInstall.pm
+SHA1 6e1392d80a0f239eecd5664f7f21f922cedb9329 inc/Module/Install/Base.pm
+SHA1 f69417fe831d9cc22a78f00a617afadceade4d81 inc/Module/Install/Can.pm
+SHA1 c61d02895330310048bf388881b5e2e064031561 inc/Module/Install/Fetch.pm
+SHA1 4933b00c3a646da8d223c6957f94552bbd62f8c6 inc/Module/Install/Include.pm
+SHA1 54fcbed19232ec959bb17cfb4410599afc7f0779 inc/Module/Install/Makefile.pm
+SHA1 7d3be9b158e37b2b2c22084740099955623b1d56 inc/Module/Install/Metadata.pm
+SHA1 0a8b66180229ba2f9deaea1fedd0aacf7a7ace6b inc/Module/Install/Win32.pm
+SHA1 d3352eb33fe43a5f3ead513f645224fe34d73bc9 inc/Module/Install/WriteAll.pm
+SHA1 2a06cf008b7a0e047656afc67e00efd42075d881 lib/sys.pm
+SHA1 09b8888e54f59a0a7457db70ea28e51783a9af03 lib/sys/eval.pm
+SHA1 aa9511161d23806ce6743902e318de154c8596c0 lib/sys/format.pm
+SHA1 2008ded254370b7f84980ee2097413ef8787c060 lib/sys/input.pm
+SHA1 4e619fe71b83e596a9b86e2529d00ffe9f2f60f4 lib/sys/interpolation.pm
+SHA1 9a440996b3ca88210709a82929721cde2cb37a30 lib/sys/os.pm
+SHA1 abe4fce0b0a94549bb628530d34f4912cf4e3489 lib/sys/output.pm
+SHA1 e092515ae302ed6f97bf71fa8359fc5d7628e762 lib/sys/process.pm
+SHA1 fabd757f829b5908c0bc138b502cff0ff68ebcd3 lib/sys/process/group.pm
+SHA1 993d4aa9125f5a7c2efa60d697c3b21efd0222f0 lib/sys/process/user.pm
+SHA1 da7ea0d8fcd98c315ec5ad07c678eb7bb0bd7d80 lib/sys/re.pm
+SHA1 e249351a533bdcf04970a0ae5af6509bdeda7786 lib/sys/re/match.pm
+SHA1 a03668b84807bf290911b7d3b035bba6272c2315 t/00-load.t
+SHA1 6944eecdc4a1f51a808ece0d80845c1dbc081e15 xt/author/00-Kwalitee.t
+SHA1 e71930061e4fc3170c37a07686641ec58a9c28c7 xt/author/00-YAML-META_valid.t
+SHA1 f0c438fb21e7d610dd5a8911cf303641904607d0 xt/author/minimum_version.t
+SHA1 77d3c821b85da6083b14ad604220d9130e29b3e8 xt/author/perlcritic.t
+SHA1 475ff52b753d6bdf270f8d90047b7e84aafddcd2 xt/author/perlcriticrc
+SHA1 44e982cec3f9405b15f27df8a935cbea913cecb1 xt/author/pod-coverage.t
+SHA1 91958494fd3333e9b128705b00fb362b47f1d322 xt/author/pod-spell.t
+SHA1 346d159f623929acf77e2d0699c5f1009c75ccbc xt/author/pod.t
+SHA1 7ccc33fda466df84dcf5a4cd1ee16c94c6139a78 xt/author/stopwords-asksh.txt
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.8 (Darwin)
+
+iEYEARECAAYFAkfNkxQACgkQJ6CUX3jsf/pLmgCfSvyzO8WljzCe6arS8zAMsOD7
+GHEAni8zUkB+0K5T/9/Deq8L7EpceC+V
+=nlU5
+-----END PGP SIGNATURE-----
