@@ -4,12 +4,11 @@
 # $HeadURL$
 # $Revision$
 # $Date$
-use strict;
-use warnings;
+use Class::Dot2;
 
 use devel::Generator::VarMap;
 
-version "0.1";
+version "0.2";
 
 class "sys" => varmap { qw(
     arg     $_

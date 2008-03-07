@@ -13,16 +13,17 @@ use English qw(-no_match_vars);
 
 use inc::Module::Install;
 
-my $THIS_VERSION = '0.1';
+my $THIS_VERSION = '0.2';
 
 name                'sys';
 author              'Ask Solem <asksh@cpan.org>';
 version             $THIS_VERSION;
 license             'bsd';
-all_from            'lib/sys.pm';
+abstract            'The Object Oriented English.pm';
+all_from            'lib/sys.pod';
 
-requires            'version'             => 0;
-requires            'English' => 0.9;
+requires            'version' => 0;
+requires            'Class::Dot' => 2.0;
 
 # Debian stable doesn't have Test::Exception 0.22 yet, but it's about time _you should_.
 build_requires      'Test::Simple'     => 0.42;

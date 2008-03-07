@@ -1,4 +1,10 @@
-Revision history for Class-Dot
+Revision history for sys
+
+0.2 Fri Mar 07 12:46:00 GMT+1 2008 [asksh@cpan.org]
+
+    - Added dependency Class::Dot => 2.0 to Makefile.PL.
+
+    - Added abstract to META.yml.
 
 0.1 Fri Feb 22 02:20:00 GMT+1 2008 [asksh@cpan.org]
 

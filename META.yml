@@ -1,5 +1,5 @@
 --- 
-abstract: Information about the currently running Perl interpreter.
+abstract: The Object Oriented English.pm
 author: 
   - Ask Solem <asksh@cpan.org>
 build_requires: 
@@ -19,8 +19,8 @@ no_index:
     - inc
     - t
 requires: 
-  English: 0.9
+  Class::Dot: 2
   perl: 5.6.0
   version: 0
 tests: t/*.t t/*/*.t t/*/*/*.t
-version: 0.1
+version: 0.2

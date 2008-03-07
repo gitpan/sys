@@ -16,11 +16,11 @@ Hash: SHA1
 
 SHA1 413148202a0f9c20ce08c7d32ff0611d54bdd84b AUTHORS
 SHA1 72ec3bb0a381c935a757f08ee7fcaee8f7a610d7 COPYING
-SHA1 9d8d0c60edac9f907b852a0480fa889dd6b72f4b Changes
-SHA1 3d96f626d3df6dc5efb5fc4efc0356bb3af6924e GenerateVarMap.PL
-SHA1 e12096324726cf55b8a2d747e3fa901ba3345092 MANIFEST
-SHA1 a4c353e8661bc069d324912a2c1031a3b8f7c75f META.yml
-SHA1 460486b3e9bc4e62d139e46eb1909ab3417c90f3 Makefile.PL
+SHA1 0d0238ca46f7357696d35f1fa1f565503ce1404a Changes
+SHA1 8dc319ab87a538ef7087d7a3bec6c8fa4db9ea10 GenerateVarMap.PL
+SHA1 786bcc7d8db411c3da6b2cf79ed124870d5baff8 MANIFEST
+SHA1 8e3bc21c2d8ea0769db681b2c7e122d0416d13c1 META.yml
+SHA1 02cac46c061ed76797028ccb380a3dcfbfb92e7f Makefile.PL
 SHA1 aeb7be1f6e5d8504e6a17e6dbd4a0602494cb5b0 TODO
 SHA1 1ffea2027171230a5a87f69d7122e74e519316c4 class_template.tt
 SHA1 72f0a3587b4612dbbcd87bbe29a486f5655596df devel/Generator/VarMap.pm
@@ -45,18 +45,30 @@ SHA1 54fcbed19232ec959bb17cfb4410599afc7f0779 inc/Module/Install/Makefile.pm
 SHA1 7d3be9b158e37b2b2c22084740099955623b1d56 inc/Module/Install/Metadata.pm
 SHA1 0a8b66180229ba2f9deaea1fedd0aacf7a7ace6b inc/Module/Install/Win32.pm
 SHA1 d3352eb33fe43a5f3ead513f645224fe34d73bc9 inc/Module/Install/WriteAll.pm
-SHA1 2a06cf008b7a0e047656afc67e00efd42075d881 lib/sys.pm
-SHA1 09b8888e54f59a0a7457db70ea28e51783a9af03 lib/sys/eval.pm
-SHA1 aa9511161d23806ce6743902e318de154c8596c0 lib/sys/format.pm
-SHA1 2008ded254370b7f84980ee2097413ef8787c060 lib/sys/input.pm
-SHA1 4e619fe71b83e596a9b86e2529d00ffe9f2f60f4 lib/sys/interpolation.pm
-SHA1 9a440996b3ca88210709a82929721cde2cb37a30 lib/sys/os.pm
-SHA1 abe4fce0b0a94549bb628530d34f4912cf4e3489 lib/sys/output.pm
-SHA1 e092515ae302ed6f97bf71fa8359fc5d7628e762 lib/sys/process.pm
-SHA1 fabd757f829b5908c0bc138b502cff0ff68ebcd3 lib/sys/process/group.pm
-SHA1 993d4aa9125f5a7c2efa60d697c3b21efd0222f0 lib/sys/process/user.pm
-SHA1 da7ea0d8fcd98c315ec5ad07c678eb7bb0bd7d80 lib/sys/re.pm
-SHA1 e249351a533bdcf04970a0ae5af6509bdeda7786 lib/sys/re/match.pm
+SHA1 5beeaa246ffeab61f0f450a6cbf074bb527dbe57 lib/sys.pm
+SHA1 d599e7fb86f587a8495f9d073c00c43d44df795f lib/sys.pod
+SHA1 7b53a45158a105ed5e090366ffb8c98eb7977108 lib/sys/eval.pm
+SHA1 cc2fff60fd828682f715fc3495ee40fad4965b59 lib/sys/eval.pod
+SHA1 df09d75711eb1c1d7a7eb65d39661589eb63405f lib/sys/format.pm
+SHA1 0dc4a71b0990aa54da9722941ea82f5e3540380f lib/sys/format.pod
+SHA1 d94bf219aa6cfe6abeb15ffd12e9deac8e2ecb34 lib/sys/input.pm
+SHA1 1c2042701eb80858bdb2c2a92ba6556991988c95 lib/sys/input.pod
+SHA1 618cc574a8fe3f2e2640d3964a978dd33d22ad68 lib/sys/interpolation.pm
+SHA1 4f33cc8ba2f56793f7be77a5f0d8e9f80ef52f78 lib/sys/interpolation.pod
+SHA1 ee540109fbc3bd0d35436f8a930663fbb13f6162 lib/sys/os.pm
+SHA1 47fa003d6c550c18a7d8aee9ddce7334eb7e6d7b lib/sys/os.pod
+SHA1 b578c155f65ed5be41addc849909711c95beeede lib/sys/output.pm
+SHA1 3a0dcc825ed3475bc3a27decfad179f229def7f5 lib/sys/output.pod
+SHA1 ce18d2f4fc87898f3aa31010c9e00d92521c60f2 lib/sys/process.pm
+SHA1 dc2070cb67c39ff27e8c9cd20af379ef34d0095c lib/sys/process.pod
+SHA1 e504b3eee9928be4c1968b9a7c09f652f17b2edf lib/sys/process/group.pm
+SHA1 319a3ba932b6201c51da723c6cd297c0ecb90277 lib/sys/process/group.pod
+SHA1 9b6bfdd6ff808af0344ae26b6de2f0ff861bb08a lib/sys/process/user.pm
+SHA1 57d30aef3e8e04e41e38199b8425be945be3dc00 lib/sys/process/user.pod
+SHA1 78fd0fccd11f727e17bdb1a081c5e7ddf3aa9a05 lib/sys/re.pm
+SHA1 d398ddfa9795cb637fc3223b50363e8337107a90 lib/sys/re.pod
+SHA1 7f2ed2369d7c31a4af935f2bfaf750c194526588 lib/sys/re/match.pm
+SHA1 3e2c6e5ae97dd8d7a0e2db8c5644d53276c4ba68 lib/sys/re/match.pod
 SHA1 a03668b84807bf290911b7d3b035bba6272c2315 t/00-load.t
 SHA1 6944eecdc4a1f51a808ece0d80845c1dbc081e15 xt/author/00-Kwalitee.t
 SHA1 e71930061e4fc3170c37a07686641ec58a9c28c7 xt/author/00-YAML-META_valid.t
@@ -70,7 +82,7 @@ SHA1 7ccc33fda466df84dcf5a4cd1ee16c94c6139a78 xt/author/stopwords-asksh.txt
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.8 (Darwin)
 
-iEYEARECAAYFAkfNkxQACgkQJ6CUX3jsf/pLmgCfSvyzO8WljzCe6arS8zAMsOD7
-GHEAni8zUkB+0K5T/9/Deq8L7EpceC+V
-=nlU5
+iEYEARECAAYFAkfRMi0ACgkQJ6CUX3jsf/rqzgCfeGyRVyCYjPl4/0NxPKyr12xH
+/jAAnjJ3eECmCI3zM0KayDxY+9eZoaKq
+=3LqS
 -----END PGP SIGNATURE-----
